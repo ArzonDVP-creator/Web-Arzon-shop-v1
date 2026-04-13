@@ -1,0 +1,227 @@
+<!DOCTYPE html>
+<html lang="id" class="scroll-smooth">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ARZON MARKET - Situs Resmi</title>
+    <!-- Tailwind CSS CDN untuk styling modern dan responsif -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    <!-- Font Awesome CDN untuk ikon-ikon yang keren -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <style>
+        /* Custom scrollbar untuk tampilan yang rapi */
+        ::-webkit-scrollbar {
+            width: 8px;
+            height: 8px;
+        }
+        ::-webkit-scrollbar-track {
+            background: #1f2937; /* Darker gray */
+        }
+        ::-webkit-scrollbar-thumb {
+            background: #4b5563; /* Grayish blue */
+            border-radius: 4px;
+        }
+        ::-webkit-scrollbar-thumb:hover {
+            background: #374151; /* Even darker grayish blue */
+        }
+        /* Gradient teks untuk logo dan judul utama ARZON MARKET */
+        .arzon-gradient-text {
+            background-image: linear-gradient(to right, #8b5cf6, #c084fc, #ec4899); /* Ungu ke pink */
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+            display: inline-block; /* Penting untuk gradient text */
+        }
+        /* Efek hover pada kartu produk */
+        .product-card {
+            transition: transform 0.3s ease, box-shadow 0.3s ease;
+        }
+        .product-card:hover {
+            transform: translateY(-5px);
+            box-shadow: 0 10px 20px rgba(0, 0, 0, 0.4);
+        }
+    </style>
+</head>
+<body class="bg-gray-900 text-gray-100 font-sans antialiased">
+
+    <!-- Header & Navigasi -->
+    <header class="bg-gray-800 shadow-lg sticky top-0 z-50">
+        <nav role="navigation" aria-label="Main navigation" class="container mx-auto px-6 py-4 flex justify-between items-center">
+            <a href="#hero" class="text-3xl font-extrabold arzon-gradient-text">
+                ARZON MARKET
+            </a>
+            <div class="hidden md:flex space-x-8">
+                <a href="#hero" class="text-gray-300 hover:text-white transition-colors duration-200 font-medium">Beranda</a>
+                <a href="#products" class="text-gray-300 hover:text-white transition-colors duration-200 font-medium">Produk</a>
+                <a href="#contact" class="text-gray-300 hover:text-white transition-colors duration-200 font-medium">Kontak</a>
+            </div>
+            <!-- Mobile Menu Button -->
+            <button id="mobile-menu-button" aria-controls="mobile-menu" aria-expanded="false" aria-label="Toggle menu" class="md:hidden text-gray-300 hover:text-white focus:outline-none">
+                <i class="fas fa-bars text-2xl"></i>
+            </button>
+        </nav>
+        <!-- Mobile Menu -->
+        <div id="mobile-menu" class="md:hidden bg-gray-800 py-2 hidden">
+            <a href="#hero" class="block px-6 py-2 text-gray-300 hover:bg-gray-700 hover:text-white transition-colors duration-200">Beranda</a>
+            <a href="#products" class="block px-6 py-2 text-gray-300 hover:bg-gray-700 hover:text-white transition-colors duration-200">Produk</a>
+            <a href="#contact" class="block px-6 py-2 text-gray-300 hover:bg-gray-700 hover:text-white transition-colors duration-200">Kontak</a>
+        </div>
+    </header>
+
+    <!-- Hero Section -->
+    <section id="hero" class="relative h-screen flex items-center justify-center bg-cover bg-center" style="background-image: url('https://source.unsplash.com/1600x900/?gaming,abstract');">
+        <div class="absolute inset-0 bg-black opacity-70"></div>
+        <div class="relative z-10 text-center px-6">
+            <h1 class="text-5xl md:text-7xl font-extrabold text-white mb-4 leading-tight arzon-gradient-text">
+                Selamat Datang di ARZON MARKET
+            </h1>
+            <p class="text-lg md:text-2xl text-gray-300 mb-8 max-w-2xl mx-auto">
+                layanan kebutuhan  : aplikasi jasteb unhcek jasa jebol vda akun file games
+free fire  bisa & max  🔥😜
+            </p>
+            <a href="#products" class="bg-indigo-600 hover:bg-indigo-700 text-white font-bold py-3 px-8 rounded-full text-lg shadow-lg transform hover:scale-105 transition-all duration-300">
+                Lihat Produk Kami <i class="fas fa-arrow-right ml-2"></i>
+            </a>
+        </div>
+    </section>
+
+    <!-- Products Section -->
+    <section id="products" class="py-16 md:py-24 bg-gray-900">
+        <div class="container mx-auto px-6">
+            <h2 class="text-4xl md:text-5xl font-extrabold text-white text-center mb-12 arzon-gradient-text">
+                Produk Unggulan ARZON MARKET
+            </h2>
+            <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8">
+
+                <!-- Product Card 1: Jual File FF -->
+                <div class="product-card bg-gray-800 p-8 rounded-xl shadow-xl flex flex-col justify-between">
+                    <div>
+                        <div class="text-5xl text-red-500 mb-4 text-center"><i class="fas fa-fire"></i></div>
+                        <h3 class="text-2xl font-bold text-white mb-3 text-center">File Rahasia Auto Headshot Free Fire</h3>
+                        <p class="text-gray-400 text-sm leading-relaxed mb-6">
+                            Dapatkan keunggulan instan dengan file eksklusif Arzon Market untuk Free Fire (Biasa & Max). File ini dirancang untuk mempermudah auto headshot dengan **kemungkinan 30%** akurasi di setiap tembakan. <strong class="text-yellow-400">PENTING:</strong> Kami tidak menawarkan 100% headshot untuk menjaga keamanan akunmu. <strong class="text-green-400">Keamanan 100%</strong> akun Free Fire-mu terjamin aman dari banned dengan file kami!
+                        </p>
+                    </div>
+                    <a href="https://wa.me/6281381809772?text=Halo%20ARZON%20MARKET%2C%20saya%20tertarik%20dengan%20File%20Auto%20Headshot%20Free%20Fire%20(Biasa%2FMax)%20Anda.%20Bisakah%20Anda%20memberikan%20informasi%20lebih%20lanjut%3F" target="_blank" rel="noopener noreferrer" class="block bg-indigo-600 hover:bg-indigo-700 text-white font-bold py-3 px-6 rounded-lg text-center mt-auto transform hover:scale-105 transition-all duration-300">
+                        Tekan untuk Beli <i class="fab fa-whatsapp ml-2"></i>
+                    </a>
+                </div>
+
+                <!-- Product Card 2: Jual Beli Akun -->
+                <div class="product-card bg-gray-800 p-8 rounded-xl shadow-xl flex flex-col justify-between">
+                    <div>
+                        <div class="text-5xl text-blue-500 mb-4 text-center"><i class="fas fa-gamepad"></i></div>
+                        <h3 class="text-2xl font-bold text-white mb-3 text-center">Jual Beli Akun Gaming Terlengkap</h3>
+                        <p class="text-gray-400 text-sm leading-relaxed mb-6">
+                            Cari akun impianmu atau jual akun lamamu dengan mudah di Arzon Market! Kami melayani jual beli akun Free Fire (FF), Mobile Legends (ML), Roblox, dan game populer lainnya. Transaksi aman, proses cepat, dan harga terbaik menantimu!
+                        </p>
+                    </div>
+                    <a href="https://wa.me/6281381809772?text=Halo%20ARZON%20MARKET%2C%20saya%20tertarik%20dengan%20layanan%20Jual%20Beli%20Akun%20Gaming%20Anda.%20Bagaimana%20prosedurnya%3F" target="_blank" rel="noopener noreferrer" class="block bg-indigo-600 hover:bg-indigo-700 text-white font-bold py-3 px-6 rounded-lg text-center mt-auto transform hover:scale-105 transition-all duration-300">
+                        Tekan untuk Beli <i class="fab fa-whatsapp ml-2"></i>
+                    </a>
+                </div>
+
+                <!-- Product Card 3: Jual Aplikasi JB & LOGO -->
+                <div class="product-card bg-gray-800 p-8 rounded-xl shadow-xl flex flex-col justify-between">
+                    <div>
+                        <div class="text-5xl text-yellow-500 mb-4 text-center"><i class="fas fa-tools"></i></div>
+                        <h3 class="text-2xl font-bold text-white mb-3 text-center">Aplikasi Jb & Desain Logo Kustom</h3>
+                        <p class="text-gray-400 text-sm leading-relaxed mb-6">
+                            Perlu tools khusus untuk kebutuhan jualanmu atau ingin mempercantik ? Dapatkan aplikasi Jb serbaguna (JB) dari Arzon Market! Kami juga menyediakan jasa desain logo kustom yang unik, menarik, dan sesuai keinginanmu untuk identitas bisnismu!
+                        </p>
+                    </div>
+                    <a href="https://wa.me/6281381809772?text=Halo%20ARZON%20MARKET%2C%20saya%20tertarik%20dengan%20Aplikasi%20Jb%20atau%20Jasa%20Desain%20Logo%20Anda.%20Mohon%20info%20lebih%20lanjut%20ya%21" target="_blank" rel="noopener noreferrer" class="block bg-indigo-600 hover:bg-indigo-700 text-white font-bold py-3 px-6 rounded-lg text-center mt-auto transform hover:scale-105 transition-all duration-300">
+                        Tekan untuk Beli <i class="fab fa-whatsapp ml-2"></i>
+                    </a>
+                </div>
+
+                <!-- Product Card 4: Jual Jasteb & Unchek -->
+                <div class="product-card bg-gray-800 p-8 rounded-xl shadow-xl flex flex-col justify-between">
+                    <div>
+                        <div class="text-5xl text-purple-500 mb-4 text-center"><i class="fas fa-gem"></i></div>
+                        <h3 class="text-2xl font-bold text-white mb-3 text-center">Jasteb & Uncheck Akun Gemas by Team Arzon</h3>
+                        <p class="text-gray-400 text-sm leading-relaxed mb-6">
+                            Ikuti keseruan "Gacha Akun Gemas" Dapatkan kesempatan meraih akun Free Fire, Roblox, Mobile Legends, TikTok, Instagram, dan akun seru lainnya. jasteb ini nebar murni dan belum di chek admin masih fresh pw dan email di kirim ke email kamu somoga beruntung  kalo gak bisa pakak vda  ke admin ARZON 
+ <strong class="text-yellow-400">😜 hoki-hoki</strong>! Jika beruntung dapat akun impian, bersyukur. Jika belum, tetap bersyukur! Nikmati sensasi gacha yang tak terduga!
+                        </p>
+                    </div>
+                    <a href="https://wa.me/6281381809772?text=Halo%20ARZON%20MARKET%2C%20saya%20tertarik%20dengan%20Jasteb%20%26%20Uncheck%20Akun%20Gemas%20dari%20Team%20Arzon.%20Bagaimana%20cara%20ikutannya%3F" target="_blank" rel="noopener noreferrer" class="block bg-indigo-600 hover:bg-indigo-700 text-white font-bold py-3 px-6 rounded-lg text-center mt-auto transform hover:scale-105 transition-all duration-300">
+                        Tekan untuk Beli <i class="fab fa-whatsapp ml-2"></i>
+                    </a>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="py-16 md:py-24 bg-gray-800">
+        <div class="container mx-auto px-6 text-center">
+            <h2 class="text-4xl md:text-5xl font-extrabold text-white mb-8 arzon-gradient-text">
+                Hubungi Kami
+            </h2>
+            <p class="text-lg md:text-xl text-gray-300 mb-12 max-w-3xl mx-auto">
+                ADIMN ARZON bisa membantu kendala dan siap melayani kebutuhanmu! Jangan ragu untuk menghubungi kami melalui nomor WhatsApp di bawah ini.
+            </p>
+
+            <div class="flex flex-col md:flex-row justify-center items-center gap-8 md:gap-12">
+                <div class="bg-gray-700 p-6 rounded-xl shadow-lg flex flex-col items-center product-card">
+                    <i class="fab fa-whatsapp text-5xl text-green-500 mb-4"></i>
+                    <p class="text-gray-400 text-sm mb-2">Nomor ADMIN utama</p>
+                    <p class="text-2xl font-bold text-white mb-4">081381809772</p>
+                    <a href="https://wa.me/6281381809772?text=Halo%20ARZON%20MARKET%2C%20saya%20ingin%20bertanya%20tentang%20produk%20Anda." target="_blank" rel="noopener noreferrer" class="bg-green-600 hover:bg-green-700 text-white font-bold py-2 px-6 rounded-full text-md transition-all duration-300">
+                        Chat Sekarang <i class="fas fa-paper-plane ml-2"></i>
+                    </a>
+                </div>
+                <div class="bg-gray-700 p-6 rounded-xl shadow-lg flex flex-col items-center product-card">
+                    <i class="fab fa-whatsapp text-5xl text-green-500 mb-4"></i>
+                    <p class="text-gray-400 text-sm mb-2">Nomor Kedua</p>
+                    <p class="text-2xl font-bold text-white mb-4">085177108751</p>
+                    <a href="https://wa.me/6285177108751?text=Halo%20ARZON%20MARKET%2C%20saya%20ingin%20bertanya%20tentang%20produk%20Anda." target="_blank" rel="noopener noreferrer" class="bg-green-600 hover:bg-green-700 text-white font-bold py-2 px-6 rounded-full text-md transition-all duration-300">
+                        Chat Sekarang <i class="fas fa-paper-plane ml-2"></i>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="bg-gray-900 py-8 text-center text-gray-500 text-sm">
+        <p>&copy; 2026 ARZON MARKET. All rights reserved.</p>
+        <p>Powered by <span class="arzon-gradient-text font-bold">Dardcor AI</span></p>
+    </footer>
+
+    <script>
+        // Smooth scrolling for navigation links
+        document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+            anchor.addEventListener('click', function (e) {
+                e.preventDefault();
+                const target = document.querySelector(this.getAttribute('href'));
+                if (target) {
+                    target.scrollIntoView({
+                        behavior: 'smooth'
+                    });
+                }
+                // Close mobile menu if open
+                const mobileMenu = document.getElementById('mobile-menu');
+                if (mobileMenu && !mobileMenu.classList.contains('hidden')) {
+                    mobileMenu.classList.add('hidden');
+                    const mobileBtn = document.getElementById('mobile-menu-button');
+                    if (mobileBtn) mobileBtn.setAttribute('aria-expanded', 'false');
+                }
+            });
+        });
+
+        // Toggle mobile menu (safe guards)
+        const mobileMenuButton = document.getElementById('mobile-menu-button');
+        if (mobileMenuButton) {
+            mobileMenuButton.addEventListener('click', function() {
+                const mobileMenu = document.getElementById('mobile-menu');
+                if (!mobileMenu) return;
+                const isHidden = mobileMenu.classList.toggle('hidden');
+                // Update aria-expanded
+                this.setAttribute('aria-expanded', String(!isHidden));
+            });
+        }
+    </script>
+</body>
+</html>
